@@ -3,26 +3,32 @@
     padding:0;
     font-family: sans-serif;
 }
-.container{
-    margin : 0 auto;
-    padding: 0 2rem,
+
+html{
+    font-size: 62.5%;
 }
 
-/* .hero{
+.container{
+    margin : 0 auto;
+    padding: 0 15rem;
+}
+
+.header{
   position: relative;
   width: 100%;
-  height: 100vh;
-  background: #eff4fd;;  
-} */
+  background: #48169b;
+  min-height: 3rem;
+}
 
 nav{
-   display: flex; 
-   width: 84%;
+   display: flex;
    margin: auto;
-   padding:  20px  0;
    align-items: center;
     justify-content: space-between;
-    background-color: red;
+}
+
+nav .logo{
+    height: 2.5rem;
 }
 
 nav ul li{
@@ -32,19 +38,21 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #000;
     font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
 }
 nav ul li a:hover{
     color: red;
 }
-/* .detel{
+
+.detel{
    margin-left: 11px;
-   margin-top: 8%; 
-} */
+   margin-top: 8%;
+}
 
 .detel h1{
-    font-size:17px ;
+    font-size: 2rem ;
     color:#212121;
     margin-bottom: 20px;
 
@@ -56,6 +64,7 @@ span{
 .detel p{
     color:#555;
     line-height: 22px;
+    font-size: 1.5rem;
 }
 .detel a{
     background: #212121;
@@ -67,7 +76,7 @@ span{
     border-radius: 5px;
     color: #fff;
 }
-.images{
+.images {
     width: 45%;
     height: 80%;
     position: absolute;
@@ -87,10 +96,13 @@ span{
 .images:hover.shape{
     bottom:40px;
 }
-.images:hover.boy{
-    left:45%;
+
+.images .boy{
+    top: 7rem;
+    height: 55rem;
+    border-radius: 100%;
 }
 
-.boy{
-    
+.images:hover.boy{
+    left:45%;
 }
